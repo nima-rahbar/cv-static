@@ -8,21 +8,22 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 	<title>Nima Rahbar - CV</title>
 	<style>
-		body {
-			margin-top: 100px;
-		}
 		.bi-arrow-up-square-fill {
 			cursor: pointer;
 		}
+		#print-btn{
+			transform: rotate(90deg) translate(110px, -35px);
+		}
+		.page-break-clear {
+			clear: both;
+		}
+		.page-break {
+			page-break-before: always; /* depreciating, use break-after */
+			break-after: page;
+			height: 0px;
+			display: block!important;
+		}
 		@media print {
-			body {
-				margin: 0;
-			}
-			#work-experience,
-			#education-and-training{
-				clear: both;
-				page-break-before: always;
-			}
 			#personal-information,
 			#preferred-job,
 			#preferred-job-desc,
@@ -52,7 +53,8 @@
 </head>
 <body class="mb-5" data-bs-spy="scroll" data-bs-target="#nav-head">
 <div class="container-fluid">
-	<nav id="nav-head" class="navbar navbar-dark bg-dark px-3 fixed-top mb-5 d-print-none">
+	<div class="row">
+	<nav id="nav-head" class="navbar navbar-dark bg-dark sticky-top d-print-none">
 		<a class="navbar-brand" href="https://nimarahbar.com">
 			<img src="https://nimarahbar.com/wp-content/uploads/2020/12/favicon.png" alt="Nima Rahbar">
 		</a>
@@ -180,6 +182,8 @@
 				</div>
 			</div>
 		</div>
+		<div class="page-break-clear"></div>
+		<div class="page-break">&nbsp;</div>
 		<div class="divider row mb-5">
 			<div class="col-3">
 				<h3 class="text-primary text-end"><a id="work-experience">WORK EXPERIENCE</a></h3>
@@ -341,6 +345,8 @@
 				</div>
 			</div>
 		</div>
+		<div class="page-break-clear"></div>
+		<div class="page-break">&nbsp;</div>
 		<div class="divider row mb-5">
 			<div class="col-3">
 				<h3 class="text-primary text-end"><a id="education-and-training">EDUCATION AND TRAINING</a></h3>
@@ -417,6 +423,8 @@
 				</div>
 			</div>
 		</div>
+		<div class="page-break-clear"></div>
+		<div class="page-break">&nbsp;</div>
 		<div class="divider row mb-5">
 			<div class="col-3">
 				<h3 class="text-primary text-end"><a id="personal-skills">PERSONAL SKILLS</a></h3>
@@ -574,6 +582,8 @@
 				</h5>
 			</div>
 		</div>
+		<div class="page-break-clear"></div>
+		<div class="page-break">&nbsp;</div>
 		<div class="divider row mb-5">
 			<div class="col-3">
 				<h3 class="text-primary text-end"><a id="additional-information">ADDITIONAL INFORMATION</a></h3>
@@ -720,10 +730,9 @@
 			</div>
 		</div>
 	</div>
+	</div>
 </div>
-<div class="container fixed-bottom">
-	<a onclick="window.print(); return false;" class="btn btn-info d-block d-print-none">Print My CV</a>
-</div>
+<button id="print-btn" onclick="window.print(); return false;" class="btn btn-secondary rounded-0 position-fixed top-0 end-0 d-flex px-4 align-items-center d-print-none"><i class="bi bi-printer-fill fs-4 me-2"></i>Print it!</button>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
