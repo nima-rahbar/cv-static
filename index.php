@@ -6,57 +6,15 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
 	      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="css/style.css">
 	<title>Nima Rahbar - CV</title>
-	<style>
-		.bi-arrow-up-square-fill {
-			cursor: pointer;
-		}
-		#print-btn{
-			transform: rotate(90deg) translate(110px, -35px);
-		}
-		.page-break-clear {
-			clear: both;
-		}
-		.page-break {
-			page-break-before: always; /* depreciating, use break-after */
-			break-after: page;
-			height: 0px;
-			display: block!important;
-		}
-		@media print {
-			#personal-information,
-			#preferred-job,
-			#preferred-job-desc,
-			#work-experience,
-			#education-and-training,
-			#personal-skills,
-			#additional-information,
-			h2,
-			h3,
-			h4 {
-				font-size: 1rem;
-			}
-			h5 {
-				font-size: 0.85rem;
-			}
-			h6 {
-				font-size: 0.7rem;
-			}
-			.work-experience .card-header {
-				margin-bottom: 0;
-			}
-			.work-experience .card-body {
-				padding-top: 0;
-			}
-		}
-	</style>
 </head>
 <body class="mb-5" data-bs-spy="scroll" data-bs-target="#nav-head">
 <div class="container-fluid">
 	<div class="row">
 	<nav id="nav-head" class="navbar navbar-dark bg-dark sticky-top d-print-none">
 		<a class="navbar-brand" href="https://nimarahbar.com">
-			<img src="https://nimarahbar.com/wp-content/uploads/2020/12/favicon.png" alt="Nima Rahbar">
+			<img class="img-thumbnail bg-dark" src="https://nimarahbar.com/wp-content/uploads/2020/12/favicon.png" alt="Nima Rahbar">
 		</a>
 		<ul class="nav nav-pills">
 			<li class="nav-item">
@@ -182,8 +140,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="page-break-clear"></div>
-		<div class="page-break">&nbsp;</div>
 		<div class="divider row mb-5">
 			<div class="col-3">
 				<h3 class="text-primary text-end"><a id="work-experience">WORK EXPERIENCE</a></h3>
@@ -345,8 +301,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="page-break-clear"></div>
-		<div class="page-break">&nbsp;</div>
 		<div class="divider row mb-5">
 			<div class="col-3">
 				<h3 class="text-primary text-end"><a id="education-and-training">EDUCATION AND TRAINING</a></h3>
@@ -423,8 +377,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="page-break-clear"></div>
-		<div class="page-break">&nbsp;</div>
 		<div class="divider row mb-5">
 			<div class="col-3">
 				<h3 class="text-primary text-end"><a id="personal-skills">PERSONAL SKILLS</a></h3>
@@ -582,8 +534,6 @@
 				</h5>
 			</div>
 		</div>
-		<div class="page-break-clear"></div>
-		<div class="page-break">&nbsp;</div>
 		<div class="divider row mb-5">
 			<div class="col-3">
 				<h3 class="text-primary text-end"><a id="additional-information">ADDITIONAL INFORMATION</a></h3>
@@ -742,6 +692,7 @@
         crossorigin="anonymous"></script>
 <script>
     $(document).ready(function () {
+        $('.divider').before('<div class="page-break-clear"></div><div class="page-break">&nbsp;</div>');
         $(".bi-arrow-up-square-fill").on('click', function (e) {
             $('html, body').animate({
                 scrollTop: 0
