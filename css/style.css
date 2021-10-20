@@ -2,7 +2,7 @@
 	cursor: pointer;
 }
 #print-btn{
-	transform: rotate(90deg) translate(110px, -35px);
+	transform: rotate(90deg) translate(115px, -35px);
 }
 .page-break-clear {
 	clear: both;
