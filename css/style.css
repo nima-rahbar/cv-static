@@ -10,7 +10,7 @@
 .page-break {
 	page-break-before: always; /* depreciating, use break-after */
 	break-after: page;
-	height: 0px;
+	height: 0;
 	display: block!important;
 }
 @media print {
