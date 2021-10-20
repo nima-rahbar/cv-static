@@ -109,9 +109,9 @@
 									<i class="bi bi-envelope fs-4 text-primary"></i>
 									<a href="mailto:me@nimarahbar.com" class="text-body text-decoration-none">me@nimarahbar.com</a>
 									<div class="vr mx-2"></div>
-									<a href="mailto:nima.rahbar@gmail.com" class="text-body text-decoration-none">nima.rahbar@gmail.com</a>
+									<i class="bi bi-envelope fs-4 text-primary"></i>
+									<a href="mailto:nima.rahbar@gmail.com" class="text-body text-decoration-none">nima.rahbar@gmail.com </a><span class="badge bg-secondary">New</span>
 								</div>
-							</li>
 							</li>
 							<li class="list-group-item d-flex align-items-center border-0">
 								<div class="hstack gap-2">
