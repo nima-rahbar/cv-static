@@ -52,25 +52,25 @@
 </head>
 <body class="mb-5" data-bs-spy="scroll" data-bs-target="#nav-head">
 <div class="container-fluid">
-	<nav id="nav-head" class="navbar navbar-light bg-dark px-3 fixed-top mb-5 d-print-none">
+	<nav id="nav-head" class="navbar navbar-dark bg-dark px-3 fixed-top mb-5 d-print-none">
 		<a class="navbar-brand" href="https://nimarahbar.com">
 			<img src="https://nimarahbar.com/wp-content/uploads/2020/12/favicon.png" alt="Nima Rahbar">
 		</a>
 		<ul class="nav nav-pills">
 			<li class="nav-item">
-				<a class="nav-link" href="#personal-information">PERSONAL INFORMATION</a>
+				<a class="nav-link text-light" href="#personal-information">PERSONAL INFORMATION</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#work-experience">WORK EXPERIENCE</a>
+				<a class="nav-link text-light" href="#work-experience">WORK EXPERIENCE</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#education-and-training">EDUCATION AND TRAINING</a>
+				<a class="nav-link text-light" href="#education-and-training">EDUCATION AND TRAINING</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#personal-skills">PERSONAL SKILLS</a>
+				<a class="nav-link text-light" href="#personal-skills">PERSONAL SKILLS</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#additional-information">ADDITIONAL INFORMATION</a>
+				<a class="nav-link text-light" href="#additional-information">ADDITIONAL INFORMATION</a>
 			</li>
 		</ul>
 	</nav>
@@ -106,11 +106,11 @@
 							</li>
 							<li class="list-group-item d-flex align-items-center border-0">
 								<div class="hstack gap-2">
-									<i class="bi bi-envelope fs-4 text-primary"></i>
-									<a href="mailto:me@nimarahbar.com" class="text-body text-decoration-none">me@nimarahbar.com</a>
+									<i class="bi bi-envelope-fill fs-4 text-primary"></i>
+									<a href="mailto:me@nimarahbar.com" class="text-body text-decoration-none">me@nimarahbar.com</a><span class="badge bg-success">Work</span>
 									<div class="vr mx-2"></div>
 									<i class="bi bi-envelope fs-4 text-primary"></i>
-									<a href="mailto:nima.rahbar@gmail.com" class="text-body text-decoration-none">nima.rahbar@gmail.com </a><span class="badge bg-secondary">New</span>
+									<a href="mailto:nima.rahbar@gmail.com" class="text-body text-decoration-none">nima.rahbar@gmail.com </a><span class="badge bg-danger">Personal</span>
 								</div>
 							</li>
 							<li class="list-group-item d-flex align-items-center border-0">
