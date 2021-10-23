@@ -162,7 +162,7 @@
 								<li class="list-group-item d-flex align-items-center border-0">
 									<div class="d-flex align-items-center align-content-center">
 										<div class="vr me-3 text-primary" style="width: 10px;"></div>
-										<div class="lead">I have been living in Greece for almost 3 year and have full
+										<div class="lead">I have been living in Greece for almost 3 years and have full
 											rights to reside and work full time. In my own country I have worked with
 											various companies (in different fields) to consult, design, developing and
 											publishing websites. I am kind, eager to learn, and have team-working
