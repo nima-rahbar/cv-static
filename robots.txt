@@ -1,2 +1,2 @@
-User-agent:*
-Allow: /index.php
+User-Agent: *
+Allow: /
