@@ -7,7 +7,23 @@
 	      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 	<link rel="stylesheet" href="css/style.css">
-	<title>Nima Rahbar - CV</title>
+	<title>Nima Rahbar - Senior Full-Stack Web Developer</title>
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org/",
+	  "@type": "Person",
+	  "name": "Nima Rahbar",
+	  "url": "https://cv.nimarahbar.com",
+	  "image": "https://cv.nimarahbar.com/img/2021-passport.jpg",
+	  "sameAs": [
+	    "https://facebook.com/nima.rahbar",
+	    "https://www.instagram.com/nima_rahbar/",
+	    "https://www.linkedin.com/in/nimarahbar/",
+	    "https://github.com/nima-rahbar"
+	  ],
+	  "jobTitle": "Senior Full-Stack Web Developer"  
+	}
+	</script>
 </head>
 <body class="mb-5" data-bs-spy="scroll" data-bs-target="#nav-head">
 <div class="container-fluid">
