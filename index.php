@@ -6,8 +6,7 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
 	      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
-<<<<<<< Updated upstream
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.min.css">
 	<title>Nima Rahbar - Senior Full-Stack Web Developer</title>
 	<script type="application/ld+json">
 	{
@@ -25,10 +24,6 @@
 	  "jobTitle": "Senior Full-Stack Web Developer"  
 	}
 	</script>
-=======
-	<link rel="stylesheet" href="css/style.min.css">
-	<title>Nima Rahbar - CV</title>
->>>>>>> Stashed changes
 </head>
 <body class="mb-5" data-bs-spy="scroll" data-bs-target="#nav-head">
 <div class="container-fluid">
