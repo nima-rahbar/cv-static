@@ -223,7 +223,7 @@
 					</div>
 					<div class="col-12 col-sm-9">
 						<div class="card border-0">
-							<h4 class="card-header bg-transparent border-0 pt-0">Better Collective LLC, Athens
+							<h4 class="card-header bg-transparent border-0 pt-0">Better Collective LLC, Thessaloniki
 								(Greece)</h4>
 							<div class="card-body">
 								<h5 class="card-title">Full-stack Web Developer</h5>
