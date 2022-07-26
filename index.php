@@ -178,7 +178,7 @@
 								<li class="list-group-item d-flex align-items-center border-0">
 									<div class="d-flex align-items-center align-content-center">
 										<div class="vr me-3 text-primary" style="width: 10px;"></div>
-										<div class="lead">I have been living in Greece for almost 3 years and have full
+										<div class="lead">I have been living in Greece for almost 4 years and have full
 											rights to reside and work full time. In my own country I have worked with
 											various companies (in different fields) to consult, design, developing and
 											publishing websites. I am kind, eager to learn, and have team-working
@@ -219,7 +219,29 @@
 			<div class="work-experience">
 				<div class="row mb-5">
 					<div class="col-12 col-sm-3 ">
-						<h4 class="text-black-50 text-sm-end text-start ps-3 ps-sm-0">2019 – Present</h4>
+						<h4 class="text-black-50 text-sm-end text-start ps-3 ps-sm-0">2022 – Present</h4>
+					</div>
+					<div class="col-12 col-sm-9">
+						<div class="card border-0">
+							<h4 class="card-header bg-transparent border-0 pt-0">Better Collective LLC, Athens
+								(Greece)</h4>
+							<div class="card-body">
+								<h5 class="card-title">Full-stack Web Developer</h5>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item border-0">Custom PHP development</li>
+									<li class="list-group-item border-0">Custom Wordpress© theme development</li>
+									<li class="list-group-item border-0">Custom Wordpress© plugin development</li>
+									<li class="list-group-item border-0">Troubleshooting Wordpress themes & plugins
+										malfunctioning
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row mb-5">
+					<div class="col-12 col-sm-3 ">
+						<h4 class="text-black-50 text-sm-end text-start ps-3 ps-sm-0">2019 – 2022</h4>
 					</div>
 					<div class="col-12 col-sm-9">
 						<div class="card border-0">
@@ -231,6 +253,7 @@
 									<li class="list-group-item border-0">Custom PHP development</li>
 									<li class="list-group-item border-0">Custom Wordpress© theme development</li>
 									<li class="list-group-item border-0">Custom Wordpress© plugin development</li>
+									<li class="list-group-item border-0">Custom Woocommerce© development</li>
 									<li class="list-group-item border-0">Troubleshooting Wordpress themes & plugins
 										malfunctioning
 									</li>
