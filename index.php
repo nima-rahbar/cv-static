@@ -728,7 +728,7 @@
 						<div class="row row-cols-1 row-cols-md-4 g-4">
 							<div class="col">
 								<div class="card">
-									<img src="https://nimarahbar.com/wp-content/uploads/2020/12/Certificate_5564059.jpg"
+									<img src="https://nimarahbar.com/wp-content/uploads/2022/07/Certificate_5564059.jpg"
 									     class="card-img-top" alt="CIW v5 Associate">
 									<div class="card-body">
 										<h5 class="card-title">CIW v5 Associate</h5>
@@ -738,7 +738,7 @@
 							</div>
 							<div class="col">
 								<div class="card">
-									<img src="https://nimarahbar.com/wp-content/uploads/2020/12/Certificate_5564064.jpg"
+									<img src="https://nimarahbar.com/wp-content/uploads/2022/07/Certificate_5564064.jpg"
 									     class="card-img-top" alt="CIW Web Foundations Associate">
 									<div class="card-body">
 										<h5 class="card-title">CIW Web Foundations Associate</h5>
@@ -748,7 +748,7 @@
 							</div>
 							<div class="col">
 								<div class="card">
-									<img src="https://nimarahbar.com/wp-content/uploads/2020/12/Certificate_5564060.jpg"
+									<img src="https://nimarahbar.com/wp-content/uploads/2022/07/Certificate_5564060.jpg"
 									     class="card-img-top" alt="CIW Web Design Specialist">
 									<div class="card-body">
 										<h5 class="card-title">CIW Web Design Specialist</h5>
@@ -758,7 +758,7 @@
 							</div>
 							<div class="col">
 								<div class="card">
-									<img src="https://nimarahbar.com/wp-content/uploads/2020/12/Certificate_5564062.jpg"
+									<img src="https://nimarahbar.com/wp-content/uploads/2022/07/Certificate_5564062.jpg"
 									     class="card-img-top" alt="CIW Web Design Professional">
 									<div class="card-body">
 										<h5 class="card-title">CIW Web Design Professional</h5>
@@ -768,7 +768,7 @@
 							</div>
 							<div class="col">
 								<div class="card">
-									<img src="https://nimarahbar.com/wp-content/uploads/2020/12/Certificate_5564063.jpg"
+									<img src="https://nimarahbar.com/wp-content/uploads/2022/07/Certificate_5564063.jpg"
 									     class="card-img-top" alt="CIW Professional">
 									<div class="card-body">
 										<h5 class="card-title">CIW Professional</h5>
@@ -778,7 +778,7 @@
 							</div>
 							<div class="col">
 								<div class="card">
-									<img src="https://nimarahbar.com/wp-content/uploads/2020/12/Certificate_5564065.jpg"
+									<img src="https://nimarahbar.com/wp-content/uploads/2022/07/Certificate_5564065.jpg"
 									     class="card-img-top" alt="CIW E-Commerce Specialist">
 									<div class="card-body">
 										<h5 class="card-title">CIW E-Commerce Specialist</h5>
@@ -788,7 +788,7 @@
 							</div>
 							<div class="col">
 								<div class="card">
-									<img src="https://nimarahbar.com/wp-content/uploads/2020/12/Certificate_5564061.jpg"
+									<img src="https://nimarahbar.com/wp-content/uploads/2022/07/Certificate_5564061.jpg"
 									     class="card-img-top" alt="Master CIW Designer">
 									<div class="card-body">
 										<h5 class="card-title">Master CIW Designer</h5>
@@ -798,7 +798,7 @@
 							</div>
 							<div class="col">
 								<div class="card">
-									<img src="https://nimarahbar.com/wp-content/uploads/2020/12/CIW-Certified-Instructor-eCertificate.jpg"
+									<img src="https://nimarahbar.com/wp-content/uploads/2022/07/CIW-Certified-Instructor-eCertificate.jpg"
 									     class="card-img-top" alt="CIW Certified Instructor (CI)">
 									<div class="card-body">
 										<h5 class="card-title">CIW Certified Instructor (CI)</h5>
