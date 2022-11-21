@@ -855,7 +855,10 @@
             $('html, body').animate({
                 scrollTop: 0
             });
-        })
+        });
+		if(navigator.userAgent.toLowerCase().indexOf("firefox") == -1){
+			$("#print-btn").hide();
+		}
     });
 </script>
 </body>
