@@ -856,8 +856,8 @@
                 scrollTop: 0
             });
         });
-		if(navigator.userAgent.toLowerCase().indexOf("firefox") == -1){
-			$("#print-btn").hide();
+		if(navigator.userAgent.toLowerCase().indexOf("firefox") <= -1){
+			$("#print-btn").addClass("d-none");
 		}
     });
 </script>
