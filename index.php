@@ -83,7 +83,7 @@
 										<div class="d-sm-flex align-items-sm-center text-center text-sm-start">
 											<i class="bi bi-geo-alt fs-4 text-primary me-sm-2"></i>
 											<br>
-											<a href="https://goo.gl/maps/CCSeSguGMsXrXqeYA" target="_blank"
+											<a href="https://goo.gl/maps/194QpHwQjcX4uowb9" target="_blank"
 											   class="text-body text-decoration-none">Nea Smyrni (Greece)</a>
 										</div>
 										<div class="vr mx-2 d-sm-none"></div>
