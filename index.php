@@ -4,9 +4,8 @@
 	<meta charset="utf-8">
 	<link rel="icon" type="image/x-icon" href="img/favicon.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-	      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 	<link rel="stylesheet" href="css/style.min.css">
 	<title>Nima Rahbar - Senior Full-Stack Web Developer</title>
 	<script type="application/ld+json">
@@ -86,21 +85,31 @@
 											<a href="https://goo.gl/maps/194QpHwQjcX4uowb9" target="_blank"
 											   class="text-body text-decoration-none">Nea Smyrni (Greece)</a>
 										</div>
-										<div class="vr mx-2 d-sm-none"></div>
-										<div class="d-sm-flex align-items-sm-center text-center text-sm-start d-sm-none">
-											<i class="bi bi-phone fs-4 text-primary"></i>
-											<br>
-											<a href="tel:+306981774599" class="text-body text-decoration-none">(+30) 69
-												81 77 45 99</a>
+										<div class="vr mx-2"></div>
+										<div class="d-block d-sm-flex gap-2 align-items-sm-center text-center text-sm-start">
+                                            <a href="tel:+306981774599" class="d-inline icon-link icon-link-hover text-decoration-none">
+                                                <i class="bi bi-telephone-fill fs-4 text-primary"></i>
+                                            </a>
+                                            <a class="d-inline icon-link icon-link-hover text-decoration-none mx-2 mx-sm-0" href="https://wa.me/306981774599">
+                                                <i class="bi bi-whatsapp text-success fs-4"></i>
+                                            </a>
+                                            <a class="d-inline icon-link icon-link-hover text-info text-decoration-none" href="https://t.me/nima_rahbar">
+                                                <i class="bi bi-telegram fs-4"></i>
+                                            </a>
+											<a href="tel:+306981774599" class="d-block d-sm-inline text-body text-decoration-none">(+30)&nbsp;69&nbsp;81&nbsp;77&nbsp;45&nbsp;99</a>
 										</div>
 									</div>
 								</li>
-								<li class="list-group-item d-flex align-items-center border-0 d-none d-sm-block">
+								<li class="d-none list-group-item align-items-center border-0">
 									<div class="d-flex align-items-center gap-0 gap-sm-2">
-										<i class="bi bi-phone fs-4 text-primary"></i>
-										<a href="tel:+306981774599" class="text-body text-decoration-none">(+30) 69 81
-											77 45
-											99</a>
+										<i class="bi bi-telephone fs-4 text-primary"></i>
+										<a href="tel:+306981774599" class="text-body text-decoration-none">(+30)&nbsp;69&nbsp;81&nbsp;77&nbsp;45&nbsp;99</a>
+                                        <a class="icon-link icon-link-hover" href="https://wa.me/306981774599">
+                                            <i class="bi bi-whatsapp text-success"></i>
+                                        </a>
+                                        <a class="icon-link icon-link-hover text-info" href="https://t.me/nima_rahbar">
+                                            <i class="bi bi-telegram"></i>
+                                        </a>
 									</div>
 								</li>
 								<li class="list-group-item d-flex align-items-center justify-content-evenly justify-content-sm-start border-0">
@@ -108,21 +117,21 @@
 										<div class="d-sm-flex align-items-sm-center text-center text-sm-start">
 											<i class="bi bi-envelope-fill fs-4 text-primary me-sm-2"></i>
 											<a href="mailto:me@nimarahbar.com" class="text-body text-decoration-none">me@nimarahbar.com</a><span
-													class="badge bg-success">Work</span>
+													class="badge bg-success ms-0 ms-sm-1">Work</span>
 										</div>
 										<div class="vr mx-2"></div>
 										<div class="d-sm-flex align-items-sm-center text-center text-sm-start">
 											<i class="bi bi-envelope fs-4 text-primary me-sm-2"></i>
 											<a href="mailto:nima.rahbar@gmail.com"
 											   class="text-body text-decoration-none">nima.rahbar@gmail.com </a><span
-													class="badge bg-danger">Personal</span>
+													class="badge bg-danger ms-0 ms-sm-1">Personal</span>
 										</div>
 									</div>
 								</li>
 								<li class="list-group-item d-flex align-items-center justify-content-evenly justify-content-sm-start border-0">
 									<div class="d-flex align-items-center gap-0 gap-sm-2">
 										<div class="d-grid d-sm-flex align-items-sm-center text-center text-sm-start gap-sm-2">
-											<i class="bi bi-mouse3 fs-4 text-primary"></i>
+                                            <i class="bi bi-browser-chrome fs-4 text-primary"></i>
 											<a href="https://nimarahbar.com" target="_blank"
 											   class="text-body text-decoration-none">nimarahbar.com</a>
 										</div>
@@ -134,7 +143,7 @@
 										</div>
 										<div class="vr mx-2"></div>
 										<div class="d-grid d-sm-flex align-items-sm-center text-center text-sm-start gap-sm-2">
-											<i class="bi bi-github fs-4 text-primary"></i>
+											<i class="bi bi-github fs-4 text-dark"></i>
 											<a href="https://github.com/nima-rahbar" target="_blank"
 											   class="text-body text-decoration-none d-block d-sm-inline-block">nima-rahbar</a>
 										</div>
@@ -143,13 +152,13 @@
 								<li class="list-group-item d-flex align-items-center justify-content-evenly justify-content-sm-start border-0">
 									<div class="d-flex align-items-center align-content-around gap-1 gap-sm-2">
 										<div class="d-sm-flex align-items-sm-center text-center text-sm-start gap-sm-2">
-											<i class="bi bi-chat-quote fs-4 text-primary"></i>
+											<i class="bi bi-skype fs-4 text-info"></i>
 											<br>
 											<strong class="text-primary">Skype</strong> nima_rahbar
 										</div>
 										<div class="vr mx-2"></div>
 										<div class="d-sm-flex align-items-sm-center text-center text-sm-start gap-sm-2">
-											<i class="bi bi-chat-quote-fill fs-4 text-primary"></i>
+											<i class="bi bi-chat-quote-fill fs-4 text-success"></i>
 											<br>
 											<strong class="text-primary">Google Hangouts</strong> nima.rahbar
 											<div class="d-grid d-sm-flex align-items-sm-center text-center text-sm-start gap-sm-2"></div>
@@ -166,7 +175,7 @@
 										<div class="d-sm-flex align-items-sm-center text-center text-sm-start gap-sm-2">
 											<i class="bi bi-activity fs-4 text-primary"></i>
 											<br>
-											<span>12/11/1982</span>
+											<span>12/11/1982 (<?php echo date_diff(date_create('1982-11-12'), date_create('today'))->y; ?> Years Old)</span>
 										</div>
 										<div class="vr mx-2"></div>
 										<div class="d-sm-flex align-items-sm-center text-center text-sm-start gap-sm-2">
@@ -179,7 +188,7 @@
 								<li class="list-group-item d-flex align-items-center border-0">
 									<div class="d-flex align-items-center align-content-center">
 										<div class="vr me-3 text-primary" style="width: 10px;"></div>
-										<div class="lead">I have been living in Greece for almost 4 years and have full
+										<div class="lead">I have been living in Greece for almost <?php echo date("Y", time()) - 2018; ?> years and have full
 											rights to reside and work full time. In my own country I have worked with
 											various companies (in different fields) to consult, design, developing and
 											publishing websites. I am kind, eager to learn, and have team-working
@@ -219,8 +228,9 @@
 			</div>
 			<div class="work-experience">
 				<div class="row mb-5">
-					<div class="col-12 col-sm-3 ">
+					<div class="col-12 col-sm-3 d-flex align-items-center d-sm-block">
 						<h4 class="text-black-50 text-sm-end text-start ps-3 ps-sm-0">2022 – Present</h4>
+                        <h5 class="text-black-50 text-sm-end text-start ps-3 ps-sm-0 fs-6">(Almost <?php echo date_diff(date_create('2022-01-25'), date_create('today'))->y; ?> Years)</h5>
 					</div>
 					<div class="col-12 col-sm-9">
 						<div class="card border-0">
@@ -241,8 +251,9 @@
 					</div>
 				</div>
 				<div class="row mb-5">
-					<div class="col-12 col-sm-3 ">
+					<div class="col-12 col-sm-3 d-flex align-items-center d-sm-block">
 						<h4 class="text-black-50 text-sm-end text-start ps-3 ps-sm-0">2019 – 2022</h4>
+                        <h5 class="text-black-50 text-sm-end text-start ps-3 ps-sm-0 fs-6">(Almost <?php echo date_diff(date_create('2019-01-02'), date_create('2022-01-20'))->y; ?> Years)</h5>
 					</div>
 					<div class="col-12 col-sm-9">
 						<div class="card border-0">
@@ -264,8 +275,9 @@
 					</div>
 				</div>
 				<div class="row mb-5">
-					<div class="col-12 col-sm-3">
+					<div class="col-12 col-sm-3 d-flex align-items-center d-sm-block">
 						<h4 class="text-black-50 text-sm-end text-start ps-3 ps-sm-0">2010 – 2018</h4>
+                        <h5 class="text-black-50 text-sm-end text-start ps-3 ps-sm-0 fs-6">(Almost <?php echo date_diff(date_create('2010-01-01'), date_create('2018-06-01'))->y; ?> Years)</h5>
 					</div>
 					<div class="col-12 col-sm-9">
 						<div class="card border-0">
@@ -284,8 +296,9 @@
 					</div>
 				</div>
 				<div class="row mb-5">
-					<div class="col-12 col-sm-3">
+					<div class="col-12 col-sm-3 d-flex align-items-center d-sm-block">
 						<h4 class="text-black-50 text-sm-end text-start ps-3 ps-sm-0">2010 – 2017</h4>
+                        <h5 class="text-black-50 text-sm-end text-start ps-3 ps-sm-0 fs-6">(Almost <?php echo date_diff(date_create('2010-01-01'), date_create('2017-01-01'))->y; ?> Years)</h5>
 					</div>
 					<div class="col-12 col-sm-9">
 						<div class="card border-0">
@@ -303,8 +316,9 @@
 					</div>
 				</div>
 				<div class="row mb-5">
-					<div class="col-12 col-sm-3">
+					<div class="col-12 col-sm-3 d-flex align-items-center d-sm-block">
 						<h4 class="text-black-50 text-sm-end text-start ps-3 ps-sm-0">2015 – 2016</h4>
+                        <h5 class="text-black-50 text-sm-end text-start ps-3 ps-sm-0 fs-6">(Almost <?php echo date_diff(date_create('2015-01-01'), date_create('2016-01-01'))->y; ?> Year)</h5>
 					</div>
 					<div class="col-12 col-sm-9">
 						<div class="card border-0">
@@ -529,17 +543,17 @@
 								<th>English</th>
 								<td>B2</td>
 								<td>B2</td>
-								<td>B1</td>
+								<td>B2</td>
 								<td>B1</td>
 								<td>B1</td>
 							</tr>
 							<tr>
 								<th>Greek</th>
-								<td>A2</td>
-								<td>A2</td>
-								<td>A2</td>
-								<td>A2</td>
-								<td>A2</td>
+								<td>B1</td>
+								<td>B1</td>
+								<td>B1</td>
+								<td>B1</td>
+								<td>B1</td>
 							</tr>
 							<tr>
 								<th>German</th>
@@ -596,7 +610,7 @@
 									<li class="list-group-item pt-0 ps-0">Leadership (responsible for a team of 10
 										people)
 									</li>
-									<li class="list-group-item ps-0">Teaching (For over 12 years of experience)</li>
+									<li class="list-group-item ps-0">Teaching (For over 14 years of experience)</li>
 								</ul>
 							</h5>
 						</div>
@@ -727,6 +741,34 @@
 					<div class="card-group d-none d-print-none d-sm-block">
 						<div class="row row-cols-1 row-cols-md-4 g-4">
 							<div class="col">
+								<div class="card border-0">
+                                    <a href="https://www.testdome.com/certificates/9401ad39c24340c4bf4627e0034890a9" class="testdome-certificate-stamp gold">
+                                        <span class="testdome-certificate-name">Nima Rahbar</span>
+                                        <span class="testdome-certificate-test-name">PHP and WordPress</span>
+                                        <span class="testdome-certificate-card-logo">TestDome<br>Certificate</span>
+                                    </a>
+                                    <script>
+                                        var stylesheet = "https://www.testdome.com/content/source/stylesheets/embed.css";
+                                        link = document.createElement("link");
+                                        link.href = stylesheet;
+                                        link.type = "text/css";
+                                        link.rel = "stylesheet";
+                                        link.media = "screen,print";
+                                        document.getElementsByTagName("head")[0].appendChild(link);
+                                    </script>
+								</div>
+							</div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="img/certificates/UC-bf9f345c-acbe-4141-8579-4ae38ca39e93.jpg"
+                                         class="card-img-top" alt="CIW v5 Associate">
+                                    <div class="card-body">
+                                        <h5 class="card-title">The Ultimate Sass & Less Course</h5>
+                                        <p class="card-text"><small class="text-muted">Credential ID UC-bf9f345c-ache-4141-8579-4ae38ca39e93</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
 								<div class="card">
 									<img src="img/certificates/Certificate_5564059.jpg"
 									     class="card-img-top" alt="CIW v5 Associate">
@@ -811,7 +853,13 @@
 					<div class="card border-0 d-sm-none d-print-block">
 						<div class="card-body pt-0">
 							<ul class="list-group list-group-flush">
-								<li class="list-group-item fs-6 pt-0 ps-0">CIW v5 Associate - Credential ID 5564059</li>
+								<li class="list-group-item fs-6 ps-0"><a class="text-decoration-none text-dark" href="https://www.testdome.com/certificates/9401ad39c24340c4bf4627e0034890a9" target="_blank">
+                                        TESTDOME - PHP AND WORDPRESS
+                                    </a></li>
+                                <li class="list-group-item fs-6 ps-0"><a class="text-decoration-none text-dark" href="https://www.udemy.com/certificate/UC-bf9f345c-acbe-4141-8579-4ae38ca39e93/" target="_blank">
+                                        Udemy - The Ultimate Sass & Less Course
+                                    </a></li>
+								<li class="list-group-item fs-6 ps-0">CIW v5 Associate - Credential ID 5564059</li>
 								<li class="list-group-item fs-6 ps-0">CIW Web Foundations Associate - Credential ID
 									5564064
 								</li>
@@ -842,9 +890,8 @@
 			class="bi bi-printer-fill fs-4 me-2"></i>Print it!
 </button>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
