@@ -23,6 +23,16 @@ readme.html
 # Ignore plugins and themes (optional, if you don't want to track them)
 /wp-content/plugins/
 /wp-content/themes/twentytwentyfive/
+/wp-content/themes/cv/.DS_Store
+/wp-content/themes/cv/npm-debug.log
+/wp-content/themes/cv/.sass-cache
+/wp-content/themes/cv/node_modules
+/wp-content/themes/cv/assets/sass/vendor
+/wp-content/themes/cv/package-lock.json
+/wp-content/themes/cv/*.map
+/wp-content/themes/cv/**/*.map
+/wp-content/themes/cv/yarn.lock
+
 
 # Ignore log files and OS files
 *.log
