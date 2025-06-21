@@ -1,4 +1,39 @@
-/bootstrap.min.css
-/data/
+# Ignore WordPress core files and directories
+/wp-admin/
+/wp-includes/
+
+# Ignore common WordPress files
+wp-config.php
+wp-config-sample.php
+license.txt
+readme.html
+
+# Ignore uploads and cache
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/backups/
+/wp-content/upgrade/
+/wp-content/advanced-cache.php
+/wp-content/object-cache.php
+/wp-content/wp-cache-config.php
+/wp-content/backup-db/
+/wp-content/upgrade-temp-backup/
+/wp-content/ai1wm-backups/
+
+# Ignore plugins and themes (optional, if you don't want to track them)
+/wp-content/plugins/
+/wp-content/themes/twentytwentyfive/
+
+# Ignore log files and OS files
+*.log
+.DS_Store
+Thumbs.db
+local-xdebuginfo.php
+
+# Ignore IDE and system files
 /.idea/
-/Server Files/
+/.vscode/
+/node_modules/
+/npm-debug.log
+
+# Ignore custom directories
