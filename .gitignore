@@ -3,6 +3,7 @@
 /wp-includes/
 
 # Ignore common WordPress files
+.htaccess
 index.php
 wp-activate.php
 wp-blog-header.php
@@ -11,6 +12,16 @@ wp-config.php
 wp-config-sample.php
 license.txt
 readme.html
+LICENSE
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
 
 # Ignore uploads and cache
 /wp-content/uploads/
